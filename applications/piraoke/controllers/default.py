@@ -22,7 +22,7 @@ def player():
     if video_id is None:
         raise HTTP(422,"video_id is not defined")
     #youtube_url = "https://www.youtube.com/watch?v=1_QZETpgjJw"
-    ytdl_command = "omxplayer --aspect-mode stretch $(youtube-dl -g -f 18 'https://www.youtube.com/watch?v="+video_id+"')"
+    ytdl_command = "omxplayer --vol -3000 --aspect-mode stretch $(youtube-dl -g -f 18 'https://www.youtube.com/watch?v="+video_id+"')"
     #dbg.set_trace() # stop here!
     subprocess.call(ytdl_command, shell=True)
     #return response.json(['process', {'pid': }])
