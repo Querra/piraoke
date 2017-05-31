@@ -166,6 +166,7 @@
 "Password fields don't match": 'Passwortfelder sind nicht gleich',
 'Permission': 'Permission',
 'Permissions': 'Permissions',
+'PID': 'PID',
 'Player': 'Player',
 'please input your password again': 'Bitte geben Sie ihr Passwort erneut ein',
 'Plugins': 'Plugins',

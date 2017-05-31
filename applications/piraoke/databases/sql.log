@@ -96,3 +96,9 @@ CREATE TABLE t_videos_archive(
     current_record INTEGER REFERENCES t_videos (id) ON DELETE CASCADE  
 );
 success!
+timestamp: 2017-05-28T15:06:45.905985
+ALTER TABLE t_videos ADD f_pid CHAR(512);
+success!
+timestamp: 2017-05-28T15:06:46.165297
+ALTER TABLE t_videos_archive ADD f_pid CHAR(512);
+success!
