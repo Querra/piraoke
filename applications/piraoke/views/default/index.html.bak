@@ -1,3 +1,23 @@
-{{extend 'layout.html'}}
-
-<h1>Welcome to my new app</h1>
+<body style="background: #FFAA00; font-family: sans-serif; color: #FFFFFF">
+    <div style="width: 50%; margin: 100px auto; background: url(/piraoke/static/images/bg_karaoke.jpeg) no-repeat center center fixed; background-size: cover">
+        <div style="padding: 30px; background: rgba(0, 0, 0, 0.3)">
+            <h1>Welcome to Piraoke!</h1>
+            <div style="margin: 50px 0">
+                <h2>Step 1:</h2>
+                <h3>Get the Android the Piraoke app in the Play Store</h3>
+            </div>
+            <hr style="border-color: #FFAA00">
+            <div style="margin: 50px 0">
+                <h2>Step 2:</h2>
+                <h3>Please enter this IP in the apps launch screen</h3>
+                </br>
+                <h2 style="background: #FFAA00; padding: 10px; display: inline-block; color: #000000">{{=ip}}</h2>
+            </div>
+            <hr style="border-color: #FFAA00">
+            <div style="margin: 50px 0">
+                <h2>Step 3:</h2>
+                <h3>Enjoy</h3>
+            </div>
+        </div>
+    </div>
+</body>
